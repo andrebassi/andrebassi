@@ -17,7 +17,7 @@ apiVersion: v1
 kind: Engineer
 metadata:
   name: andrebassi
-  location: São Paulo, Brazil
+  location: Barueri, Brazil
 spec:
   role: Staff Platform Engineer
   focus:
