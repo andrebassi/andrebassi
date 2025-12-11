@@ -28,11 +28,11 @@ spec:
     - AI/LLM Infrastructure
   languages: [Go, Rust, Python]
   clouds: [AWS, GCP, Azure, OCI]
-  certifications:
-    - CKA (Kubernetes Administrator)
-    - CKS (Kubernetes Security)
-    - AWS Solutions Architect
-    - GCP Professional Architect
+  experience: 20+ years
+  currently:
+    - Building Kubernetes Operators
+    - Designing Multi-Cloud Platforms
+    - RAG Pipelines & LLM Infrastructure
 ```
 
 ---
