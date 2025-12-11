@@ -16,7 +16,7 @@ Kubernetes  ·  Istio  ·  Terraform  ·  Go  ·  Rust  ·  AWS  ·  GCP  ·  Az
 apiVersion: v1
 kind: Engineer
 metadata:
-  name: andre-bassi
+  name: andrebassi
   location: São Paulo, Brazil
 spec:
   role: Staff Platform Engineer
