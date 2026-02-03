@@ -1,4 +1,4 @@
-## André Bassi
+## Bassi
 
 **Staff Platform Engineer · Arquiteto Cloud Native · AI Infrastructure Engineer · SRE**
 
