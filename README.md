@@ -83,14 +83,3 @@ spec:
 [![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=flat&logo=twitter&logoColor=white)](https://twitter.com/andrebassi)
 
 ---
-
-<details>
-<summary><strong>GitHub Stats</strong></summary>
-<br />
-
-<img
-  src="https://github-readme-stats.vercel.app/api?username=andrebassi&show_icons=true&theme=dark&hide_border=true&bg_color=0d1117"
-  alt="GitHub Stats"
-/>
-
-</details>
