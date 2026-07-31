@@ -15,25 +15,69 @@
 
 ```yaml
 apiVersion: engineering/v1
-kind: Profile
+kind: PlatformEngineer
 metadata:
   name: andre-bassi
-  location: Barueri, São Paulo, Brasil
+  labels:
+    focus: ai-infrastructure
+    seniority: staff-principal
+    availability: open-to-work
+  annotations:
+    site: https://andrebassi.com.br
+    linkedin: https://linkedin.com/in/andrebassi
+    email: contato@andrebassi.com.br
+
 spec:
   role: Consultor · Platform & AI Engineering
+  since: 2026-02                      # autônomo, andrebassi.com.br
+  location: Barueri, São Paulo, Brasil
+  remoto: true
   experiencia: 27 anos (desde 1999)
-  competencias_principais:
+
+  competenciasPrincipais:             # o pin de 5 do LinkedIn
     - Large Language Models (LLM)
     - Kubernetes
     - Platform Engineer
     - Geração aumentada de recuperação (RAG)
     - SRE
-  linguagens: [Go, Rust, Python]
-  clouds: [AWS, GCP, Azure, OCI]
-  aberto_a:
+
+  linguagens: [Go, Rust, Python, Shell]
+  clouds:     [AWS, GCP, Azure, OCI]
+
+  idiomas:
+    portugues: nativo
+    ingles: profissional completo
+
+  abertoA:
     - Staff / Principal Platform Engineer
     - AI Infrastructure
     - Cloud Architect
+
+status:
+  phase: Running
+  uptime: 27y                         # 1999 → hoje, sem gap
+  conditions:
+    - type: LLMOpsEmProducao
+      status: "True"
+      reason: vLLM · NVIDIA Triton · NIM · ONNX · MLflow · Kubeflow · Ray
+    - type: RAGEmProducao
+      status: "True"
+      reason: busca híbrida · re-ranking · pgvector · LangChain/LangGraph · MCP
+    - type: KubernetesMultiCloud
+      status: "True"
+      reason: EKS · GKE · AKS · OCI · Talos · Istio · Kong · KEDA · ArgoCD
+    - type: ObservabilidadeFimAFim
+      status: "True"
+      reason: OpenTelemetry · Prometheus · Grafana
+    - type: FinOps
+      status: "True"
+      reason: custo medido por unidade de trabalho, não por fatura
+    - type: GPUWorkloads
+      status: "True"
+      reason: de GPU em nuvem sob demanda a Jetson Orin NX embarcado
+    - type: Certificacoes
+      status: "False"
+      reason: CKA em estudo                    # honestidade > badge
 ```
 
 **MLOps e LLMOps** — pipelines RAG end-to-end com busca híbrida, re-ranking e pgvector; agentes
